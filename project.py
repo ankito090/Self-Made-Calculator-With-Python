@@ -1,3 +1,4 @@
+# A simple calculator that can perform addition, subtraction, multiplication, and division of two numbers
 def main() -> None:
     while True:
         user_input: str = input("Calculate: ")
@@ -15,9 +16,8 @@ def main() -> None:
                 print("Invalid input")
         if exit_default == 1:
             break
-        else: 
+        else:
             continue
-            
 
 
 def calculate(user_input: str) -> int | float | str:
@@ -60,4 +60,3 @@ def check_digit_type(x: str) -> int | float | None:
 
 if __name__ == "__main__":
     main()
-
