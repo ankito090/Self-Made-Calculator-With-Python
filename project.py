@@ -1,4 +1,4 @@
-# A simple calculator that can perform addition, subtraction, multiplication, and division of two numbers.
+# ! A simple calculator that can perform addition, subtraction, multiplication, and division of two numbers.
 def main() -> None:
     while True:
         user_input: str = input("Calculate: ")
